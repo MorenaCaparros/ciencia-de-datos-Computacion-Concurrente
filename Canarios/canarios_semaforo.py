@@ -26,10 +26,10 @@ canarios_columpiandose = 0
 
 # Cargar imágenes
 estados_imagenes = {
-    "esperando": "canario esperando.png",
-    "comiendo": "canario comiendo.png",
-    "columpiandose": "canario columpiandose.png",
-    "finalizado": "canario.png"
+    "esperando": "Canarios/canario esperando.png",
+    "comiendo": "Canarios/canario comiendo.png",
+    "columpiandose": "Canarios/canario columpiandose.png",
+    "finalizado": "Canarios/canario.png"
 }
 
 imagenes = {estado: ImageTk.PhotoImage(Image.open(estados_imagenes[estado]).resize((100, 100))) for estado in estados_imagenes}
